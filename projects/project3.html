@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+    }
+    .card{
+        width: 650px;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        gap: 0px;
+        overflow: hidden;
+        border-radius: 20px;
+        /* justify-content: center; */
+    }
+    .leftbox
+    {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        /* background-color: black; */
+    }
+  
+
+    .rightbox
+    {
+        width: 50%;
+        height: 100%;
+       background-color: white;
+       background-image: url(\Users\raghu\html\projects\moritz-mentges-5MlBMYDsGBY-unsplash.jpg;
+);
+    }
+    #textbox
+    {
+        width: 75%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        /* image-resolution: 20px; */
+        gap: 65px;
+    }
+   
+    /* .rightbox img
+    {
+        width: 50%;
+    height: 75%;    } */
+    #h2{
+        gap: 30px;
+    }
+    #text
+    {
+        gap: 30px;
+    }
+    #statsbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="leftbox">
+                <div id="textbox">
+                    <h2 id="code">Get insights that help your business grow</h2>
+                    <p id="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ducimus voluptates, ullam asperiores, ea neque distinctio quae deleniti provident incidunt quibusdam labore. Magnam nihil suscipit ea maxime laboriosam nisi laudantium.
+                    </p>
+                    <div id="statsbox">
+                        <div>
+                            <div id="number">
+                                10K+
+                            </div>
+                            <div id="unit">
+                                Comments
+                            </div>
+                        </div>
+
+                        <div>
+                            <div id="number">
+                                214
+                            </div>
+                            <div id="unit">
+                                Paid Users
+                            </div>
+                        </div>
+
+                        <div>
+                            <div id="number">
+                                12M+
+                            </div>
+                            <div id="unit">
+                                Views
+                            </div>
+                    </div>
+
+                </div>
+               
+                
+
+
+            </div>
+            <div class="rightbox">
+           
+
+            </div>
+           
+        </div>
+
+    </div>
+    
+</body>
+</html>
